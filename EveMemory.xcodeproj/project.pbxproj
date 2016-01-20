@@ -7,13 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C91D49141A7CB57C00A88FF8 /* DeckView.m in Sources */ = {isa = PBXBuildFile; fileRef = C91D49131A7CB57C00A88FF8 /* DeckView.m */; };
+		C91F848D1A7DE97F00B53D58 /* Points in Resources */ = {isa = PBXBuildFile; fileRef = C91F848C1A7DE97F00B53D58 /* Points */; };
+		C9234CDE1A74D08900BE8DCA /* MoveCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9234CDB1A74D08900BE8DCA /* MoveCollectionViewCell.m */; };
+		C9234CDF1A74D08900BE8DCA /* MoveCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9234CDD1A74D08900BE8DCA /* MoveCollectionViewController.m */; };
+		C9234CE51A74D37A00BE8DCA /* HTKDragAndDropCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9234CE41A74D37A00BE8DCA /* HTKDragAndDropCollectionViewController.m */; };
+		C9234CE81A74D3F100BE8DCA /* HTKDragAndDropCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C9234CE71A74D3F100BE8DCA /* HTKDragAndDropCollectionViewLayout.m */; };
+		C9234CEC1A74D4B000BE8DCA /* HTKDraggableCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9234CEB1A74D4B000BE8DCA /* HTKDraggableCollectionViewCell.m */; };
+		C92F80621AC00892002789BF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92F80611AC00892002789BF /* MainViewController.m */; };
+		C930DF641AC0E70E00610BD0 /* NSUserDefaults_Keys.h in Sources */ = {isa = PBXBuildFile; fileRef = C930DF631AC0E51A00610BD0 /* NSUserDefaults_Keys.h */; };
+		C930DF651AC0E76400610BD0 /* NSUserDefaults_Keys.h in Resources */ = {isa = PBXBuildFile; fileRef = C930DF631AC0E51A00610BD0 /* NSUserDefaults_Keys.h */; };
 		C93E2F561A0A04FF007025D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C93E2F551A0A04FF007025D7 /* main.m */; };
 		C93E2F591A0A04FF007025D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C93E2F581A0A04FF007025D7 /* AppDelegate.m */; };
 		C93E2F5C1A0A04FF007025D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C93E2F5B1A0A04FF007025D7 /* ViewController.m */; };
 		C93E2F5F1A0A04FF007025D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93E2F5D1A0A04FF007025D7 /* Main.storyboard */; };
 		C93E2F611A0A04FF007025D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93E2F601A0A04FF007025D7 /* Images.xcassets */; };
 		C93E2F641A0A04FF007025D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C93E2F621A0A04FF007025D7 /* LaunchScreen.xib */; };
-		C93E2F701A0A04FF007025D7 /* EveMemoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C93E2F6F1A0A04FF007025D7 /* EveMemoryTests.m */; };
+		C93E2FAD1A0A0DC9007025D7 /* RandomDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = C93E2FAC1A0A0DC9007025D7 /* RandomDeck.m */; };
+		C93E2FB01A0A0F6C007025D7 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = C93E2FAF1A0A0F6C007025D7 /* CardView.m */; };
+		C961A1901AC16F070008381B /* ChartsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C961A18F1AC16F070008381B /* ChartsTableViewCell.m */; };
+		C961A1991AC1C3320008381B /* ChartsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C961A1981AC1C3320008381B /* ChartsTableViewController.m */; };
+		C98425751A2C8C0500C85992 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C98425731A2C8C0500C85992 /* Model.xcdatamodeld */; };
+		C98734D81AC5B0DF00FBF241 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C98734D71AC5B0DF00FBF241 /* SetViewController.m */; };
+		C9AEDFB61A88DDF30058CF0B /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AEDFB51A88DDF30058CF0B /* DataSource.m */; };
+		C9C39ECC1A389B1F005A3463 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C39ECB1A389B1F005A3463 /* StartViewController.m */; };
+		C9C39ECF1A389ED2005A3463 /* StartView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C39ECE1A389ED2005A3463 /* StartView.m */; };
+		C9D859B21ABDBE73001DE680 /* ShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D859B11ABDBE73001DE680 /* ShowViewController.m */; };
+		C9FD1D5C1ABC3DB900D7FBFD /* ShowTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FD1D5B1ABC3DB900D7FBFD /* ShowTableViewController.m */; };
+		C9FD1D5F1ABC452C00D7FBFD /* ShowTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FD1D5E1ABC452C00D7FBFD /* ShowTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +48,57 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C91D49121A7CB57C00A88FF8 /* DeckView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeckView.h; path = models/DeckView.h; sourceTree = "<group>"; };
+		C91D49131A7CB57C00A88FF8 /* DeckView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeckView.m; path = models/DeckView.m; sourceTree = "<group>"; };
+		C91F848C1A7DE97F00B53D58 /* Points */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Points; sourceTree = "<group>"; };
+		C9234CDA1A74D08900BE8DCA /* MoveCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoveCollectionViewCell.h; path = models/MoveCollectionViewCell.h; sourceTree = "<group>"; };
+		C9234CDB1A74D08900BE8DCA /* MoveCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoveCollectionViewCell.m; path = models/MoveCollectionViewCell.m; sourceTree = "<group>"; };
+		C9234CDC1A74D08900BE8DCA /* MoveCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoveCollectionViewController.h; path = models/MoveCollectionViewController.h; sourceTree = "<group>"; };
+		C9234CDD1A74D08900BE8DCA /* MoveCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoveCollectionViewController.m; path = models/MoveCollectionViewController.m; sourceTree = "<group>"; };
+		C9234CE31A74D37A00BE8DCA /* HTKDragAndDropCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTKDragAndDropCollectionViewController.h; path = models/HTKDragAndDropCollectionView/HTKDragAndDropCollectionViewController.h; sourceTree = "<group>"; };
+		C9234CE41A74D37A00BE8DCA /* HTKDragAndDropCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTKDragAndDropCollectionViewController.m; path = models/HTKDragAndDropCollectionView/HTKDragAndDropCollectionViewController.m; sourceTree = "<group>"; };
+		C9234CE61A74D3F100BE8DCA /* HTKDragAndDropCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTKDragAndDropCollectionViewLayout.h; path = models/HTKDragAndDropCollectionView/HTKDragAndDropCollectionViewLayout.h; sourceTree = "<group>"; };
+		C9234CE71A74D3F100BE8DCA /* HTKDragAndDropCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTKDragAndDropCollectionViewLayout.m; path = models/HTKDragAndDropCollectionView/HTKDragAndDropCollectionViewLayout.m; sourceTree = "<group>"; };
+		C9234CE91A74D46300BE8DCA /* HTKDragAndDropCollectionViewLayoutConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HTKDragAndDropCollectionViewLayoutConstants.h; path = models/HTKDragAndDropCollectionView/HTKDragAndDropCollectionViewLayoutConstants.h; sourceTree = "<group>"; };
+		C9234CEA1A74D4B000BE8DCA /* HTKDraggableCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTKDraggableCollectionViewCell.h; path = models/HTKDragAndDropCollectionView/HTKDraggableCollectionViewCell.h; sourceTree = "<group>"; };
+		C9234CEB1A74D4B000BE8DCA /* HTKDraggableCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTKDraggableCollectionViewCell.m; path = models/HTKDragAndDropCollectionView/HTKDraggableCollectionViewCell.m; sourceTree = "<group>"; };
+		C92F80601AC00892002789BF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C92F80611AC00892002789BF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C930DF631AC0E51A00610BD0 /* NSUserDefaults_Keys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSUserDefaults_Keys.h; sourceTree = "<group>"; };
 		C93E2F501A0A04FF007025D7 /* EveMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EveMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C93E2F541A0A04FF007025D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C93E2F551A0A04FF007025D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C93E2F571A0A04FF007025D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C93E2F581A0A04FF007025D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C93E2F5A1A0A04FF007025D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C93E2F5B1A0A04FF007025D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C93E2F5A1A0A04FF007025D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = EveMemory/ViewController.h; sourceTree = "<group>"; };
+		C93E2F5B1A0A04FF007025D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = EveMemory/ViewController.m; sourceTree = "<group>"; };
 		C93E2F5E1A0A04FF007025D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C93E2F601A0A04FF007025D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C93E2F631A0A04FF007025D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C93E2F691A0A04FF007025D7 /* EveMemoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EveMemoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C93E2F6E1A0A04FF007025D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C93E2F6F1A0A04FF007025D7 /* EveMemoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EveMemoryTests.m; sourceTree = "<group>"; };
+		C93E2FAB1A0A0DC9007025D7 /* RandomDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RandomDeck.h; path = EveMemory/models/RandomDeck.h; sourceTree = "<group>"; };
+		C93E2FAC1A0A0DC9007025D7 /* RandomDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RandomDeck.m; path = EveMemory/models/RandomDeck.m; sourceTree = "<group>"; };
+		C93E2FAE1A0A0F6C007025D7 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardView.h; path = EveMemory/models/CardView.h; sourceTree = "<group>"; };
+		C93E2FAF1A0A0F6C007025D7 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardView.m; path = EveMemory/models/CardView.m; sourceTree = "<group>"; };
+		C961A18E1AC16F070008381B /* ChartsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChartsTableViewCell.h; path = models/ChartsTableViewCell.h; sourceTree = "<group>"; };
+		C961A18F1AC16F070008381B /* ChartsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChartsTableViewCell.m; path = models/ChartsTableViewCell.m; sourceTree = "<group>"; };
+		C961A1971AC1C3320008381B /* ChartsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChartsTableViewController.h; path = models/ChartsTableViewController.h; sourceTree = "<group>"; };
+		C961A1981AC1C3320008381B /* ChartsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChartsTableViewController.m; path = models/ChartsTableViewController.m; sourceTree = "<group>"; };
+		C98425741A2C8C0500C85992 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		C98734D61AC5B0DF00FBF241 /* SetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetViewController.h; path = models/SetViewController.h; sourceTree = "<group>"; };
+		C98734D71AC5B0DF00FBF241 /* SetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetViewController.m; path = models/SetViewController.m; sourceTree = "<group>"; };
+		C9AEDFB41A88DDF30058CF0B /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataSource.h; path = EveMemory/models/DataSource.h; sourceTree = "<group>"; };
+		C9AEDFB51A88DDF30058CF0B /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataSource.m; path = EveMemory/models/DataSource.m; sourceTree = "<group>"; };
+		C9C39ECA1A389B1F005A3463 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartViewController.h; path = models/StartViewController.h; sourceTree = "<group>"; };
+		C9C39ECB1A389B1F005A3463 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StartViewController.m; path = models/StartViewController.m; sourceTree = "<group>"; };
+		C9C39ECD1A389ED2005A3463 /* StartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartView.h; path = models/StartView.h; sourceTree = "<group>"; };
+		C9C39ECE1A389ED2005A3463 /* StartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StartView.m; path = models/StartView.m; sourceTree = "<group>"; };
+		C9D859B01ABDBE73001DE680 /* ShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowViewController.h; path = models/ShowViewController.h; sourceTree = "<group>"; };
+		C9D859B11ABDBE73001DE680 /* ShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowViewController.m; path = models/ShowViewController.m; sourceTree = "<group>"; };
+		C9FD1D5A1ABC3DB900D7FBFD /* ShowTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowTableViewController.h; path = models/ShowTableViewController.h; sourceTree = "<group>"; };
+		C9FD1D5B1ABC3DB900D7FBFD /* ShowTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowTableViewController.m; path = models/ShowTableViewController.m; sourceTree = "<group>"; };
+		C9FD1D5D1ABC452C00D7FBFD /* ShowTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowTableViewCell.h; path = models/ShowTableViewCell.h; sourceTree = "<group>"; };
+		C9FD1D5E1ABC452C00D7FBFD /* ShowTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowTableViewCell.m; path = models/ShowTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +119,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C9234CE21A74D33A00BE8DCA /* HTKDragAndDropCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				C9234CE31A74D37A00BE8DCA /* HTKDragAndDropCollectionViewController.h */,
+				C9234CE41A74D37A00BE8DCA /* HTKDragAndDropCollectionViewController.m */,
+				C9234CE61A74D3F100BE8DCA /* HTKDragAndDropCollectionViewLayout.h */,
+				C9234CE71A74D3F100BE8DCA /* HTKDragAndDropCollectionViewLayout.m */,
+				C9234CE91A74D46300BE8DCA /* HTKDragAndDropCollectionViewLayoutConstants.h */,
+				C9234CEA1A74D4B000BE8DCA /* HTKDraggableCollectionViewCell.h */,
+				C9234CEB1A74D4B000BE8DCA /* HTKDraggableCollectionViewCell.m */,
+			);
+			name = HTKDragAndDropCollectionView;
+			sourceTree = "<group>";
+		};
+		C92F805F1AC00874002789BF /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C92F80601AC00892002789BF /* MainViewController.h */,
+				C92F80611AC00892002789BF /* MainViewController.m */,
+				C961A18E1AC16F070008381B /* ChartsTableViewCell.h */,
+				C961A18F1AC16F070008381B /* ChartsTableViewCell.m */,
+				C961A1971AC1C3320008381B /* ChartsTableViewController.h */,
+				C961A1981AC1C3320008381B /* ChartsTableViewController.m */,
+				C98734D61AC5B0DF00FBF241 /* SetViewController.h */,
+				C98734D71AC5B0DF00FBF241 /* SetViewController.m */,
+			);
+			name = MainViewController;
+			sourceTree = "<group>";
+		};
+		C93A74AF1ABBB2C6009331A8 /* ShowViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C93ABD7E1ABD55B10065B0D5 /* DetalViewControl */,
+				C9D859B01ABDBE73001DE680 /* ShowViewController.h */,
+				C9D859B11ABDBE73001DE680 /* ShowViewController.m */,
+			);
+			name = ShowViewController;
+			sourceTree = "<group>";
+		};
+		C93ABD7E1ABD55B10065B0D5 /* DetalViewControl */ = {
+			isa = PBXGroup;
+			children = (
+				C9FD1D5A1ABC3DB900D7FBFD /* ShowTableViewController.h */,
+				C9FD1D5B1ABC3DB900D7FBFD /* ShowTableViewController.m */,
+				C9FD1D5D1ABC452C00D7FBFD /* ShowTableViewCell.h */,
+				C9FD1D5E1ABC452C00D7FBFD /* ShowTableViewCell.m */,
+			);
+			name = DetalViewControl;
+			sourceTree = "<group>";
+		};
 		C93E2F471A0A04FF007025D7 = {
 			isa = PBXGroup;
 			children = (
 				C93E2F521A0A04FF007025D7 /* EveMemory */,
-				C93E2F6C1A0A04FF007025D7 /* EveMemoryTests */,
 				C93E2F511A0A04FF007025D7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,13 +189,15 @@
 		C93E2F521A0A04FF007025D7 /* EveMemory */ = {
 			isa = PBXGroup;
 			children = (
-				C93E2F571A0A04FF007025D7 /* AppDelegate.h */,
-				C93E2F581A0A04FF007025D7 /* AppDelegate.m */,
-				C93E2F5A1A0A04FF007025D7 /* ViewController.h */,
-				C93E2F5B1A0A04FF007025D7 /* ViewController.m */,
+				C91F848C1A7DE97F00B53D58 /* Points */,
+				C930DF631AC0E51A00610BD0 /* NSUserDefaults_Keys.h */,
+				C9C39EC91A389A4B005A3463 /* StartViewController */,
+				C92F805F1AC00874002789BF /* MainViewController */,
+				C93E2F7C1A0A0AC9007025D7 /* MemViewController */,
+				C98D9F0A1A3F150200CBB3D8 /* MoveViewController */,
+				C93A74AF1ABBB2C6009331A8 /* ShowViewController */,
 				C93E2F5D1A0A04FF007025D7 /* Main.storyboard */,
 				C93E2F601A0A04FF007025D7 /* Images.xcassets */,
-				C93E2F621A0A04FF007025D7 /* LaunchScreen.xib */,
 				C93E2F531A0A04FF007025D7 /* Supporting Files */,
 			);
 			path = EveMemory;
@@ -96,27 +206,55 @@
 		C93E2F531A0A04FF007025D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C98425731A2C8C0500C85992 /* Model.xcdatamodeld */,
+				C93E2F621A0A04FF007025D7 /* LaunchScreen.xib */,
+				C93E2F571A0A04FF007025D7 /* AppDelegate.h */,
+				C93E2F581A0A04FF007025D7 /* AppDelegate.m */,
 				C93E2F541A0A04FF007025D7 /* Info.plist */,
 				C93E2F551A0A04FF007025D7 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C93E2F6C1A0A04FF007025D7 /* EveMemoryTests */ = {
+		C93E2F7C1A0A0AC9007025D7 /* MemViewController */ = {
 			isa = PBXGroup;
 			children = (
-				C93E2F6F1A0A04FF007025D7 /* EveMemoryTests.m */,
-				C93E2F6D1A0A04FF007025D7 /* Supporting Files */,
+				C93E2F5A1A0A04FF007025D7 /* ViewController.h */,
+				C93E2F5B1A0A04FF007025D7 /* ViewController.m */,
+				C93E2FAE1A0A0F6C007025D7 /* CardView.h */,
+				C93E2FAF1A0A0F6C007025D7 /* CardView.m */,
+				C93E2FAB1A0A0DC9007025D7 /* RandomDeck.h */,
+				C93E2FAC1A0A0DC9007025D7 /* RandomDeck.m */,
+				C9AEDFB41A88DDF30058CF0B /* DataSource.h */,
+				C9AEDFB51A88DDF30058CF0B /* DataSource.m */,
 			);
-			path = EveMemoryTests;
+			name = MemViewController;
+			path = ..;
 			sourceTree = "<group>";
 		};
-		C93E2F6D1A0A04FF007025D7 /* Supporting Files */ = {
+		C98D9F0A1A3F150200CBB3D8 /* MoveViewController */ = {
 			isa = PBXGroup;
 			children = (
-				C93E2F6E1A0A04FF007025D7 /* Info.plist */,
+				C9234CE21A74D33A00BE8DCA /* HTKDragAndDropCollectionView */,
+				C9234CDA1A74D08900BE8DCA /* MoveCollectionViewCell.h */,
+				C9234CDB1A74D08900BE8DCA /* MoveCollectionViewCell.m */,
+				C9234CDC1A74D08900BE8DCA /* MoveCollectionViewController.h */,
+				C9234CDD1A74D08900BE8DCA /* MoveCollectionViewController.m */,
 			);
-			name = "Supporting Files";
+			name = MoveViewController;
+			sourceTree = "<group>";
+		};
+		C9C39EC91A389A4B005A3463 /* StartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9C39ECA1A389B1F005A3463 /* StartViewController.h */,
+				C9C39ECB1A389B1F005A3463 /* StartViewController.m */,
+				C9C39ECD1A389ED2005A3463 /* StartView.h */,
+				C9C39ECE1A389ED2005A3463 /* StartView.m */,
+				C91D49121A7CB57C00A88FF8 /* DeckView.h */,
+				C91D49131A7CB57C00A88FF8 /* DeckView.m */,
+			);
+			name = StartViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +337,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C930DF651AC0E76400610BD0 /* NSUserDefaults_Keys.h in Resources */,
 				C93E2F5F1A0A04FF007025D7 /* Main.storyboard in Resources */,
 				C93E2F641A0A04FF007025D7 /* LaunchScreen.xib in Resources */,
 				C93E2F611A0A04FF007025D7 /* Images.xcassets in Resources */,
+				C91F848D1A7DE97F00B53D58 /* Points in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +359,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C930DF641AC0E70E00610BD0 /* NSUserDefaults_Keys.h in Sources */,
+				C9FD1D5C1ABC3DB900D7FBFD /* ShowTableViewController.m in Sources */,
+				C961A1991AC1C3320008381B /* ChartsTableViewController.m in Sources */,
 				C93E2F5C1A0A04FF007025D7 /* ViewController.m in Sources */,
+				C91D49141A7CB57C00A88FF8 /* DeckView.m in Sources */,
+				C9AEDFB61A88DDF30058CF0B /* DataSource.m in Sources */,
+				C9FD1D5F1ABC452C00D7FBFD /* ShowTableViewCell.m in Sources */,
+				C9234CDE1A74D08900BE8DCA /* MoveCollectionViewCell.m in Sources */,
+				C92F80621AC00892002789BF /* MainViewController.m in Sources */,
 				C93E2F591A0A04FF007025D7 /* AppDelegate.m in Sources */,
+				C9234CE81A74D3F100BE8DCA /* HTKDragAndDropCollectionViewLayout.m in Sources */,
+				C93E2FB01A0A0F6C007025D7 /* CardView.m in Sources */,
+				C9234CDF1A74D08900BE8DCA /* MoveCollectionViewController.m in Sources */,
+				C9C39ECC1A389B1F005A3463 /* StartViewController.m in Sources */,
+				C9D859B21ABDBE73001DE680 /* ShowViewController.m in Sources */,
 				C93E2F561A0A04FF007025D7 /* main.m in Sources */,
+				C961A1901AC16F070008381B /* ChartsTableViewCell.m in Sources */,
+				C98734D81AC5B0DF00FBF241 /* SetViewController.m in Sources */,
+				C93E2FAD1A0A0DC9007025D7 /* RandomDeck.m in Sources */,
+				C9234CE51A74D37A00BE8DCA /* HTKDragAndDropCollectionViewController.m in Sources */,
+				C98425751A2C8C0500C85992 /* Model.xcdatamodeld in Sources */,
+				C9234CEC1A74D4B000BE8DCA /* HTKDraggableCollectionViewCell.m in Sources */,
+				C9C39ECF1A389ED2005A3463 /* StartView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +389,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C93E2F701A0A04FF007025D7 /* EveMemoryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +439,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: quanlan huang (QV42NW2BY9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: quanlan huang (QV42NW2BY9)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -322,7 +482,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: quanlan huang (QV42NW2BY9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: quanlan huang (QV42NW2BY9)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -345,9 +506,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: quanlan huang (QV42NW2BY9)";
 				INFOPLIST_FILE = EveMemory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "451dde7a-c1b8-4a6d-9c7b-e1b08affe26f";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -355,9 +521,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: quanlan huang (QV42NW2BY9)";
 				INFOPLIST_FILE = EveMemory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "451dde7a-c1b8-4a6d-9c7b-e1b08affe26f";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -414,6 +585,7 @@
 				C93E2F751A0A04FF007025D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C93E2F761A0A04FF007025D7 /* Build configuration list for PBXNativeTarget "EveMemoryTests" */ = {
 			isa = XCConfigurationList;
@@ -422,8 +594,22 @@
 				C93E2F781A0A04FF007025D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C98425731A2C8C0500C85992 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C98425741A2C8C0500C85992 /* Model.xcdatamodel */,
+			);
+			currentVersion = C98425741A2C8C0500C85992 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C93E2F481A0A04FF007025D7 /* Project object */;
 }

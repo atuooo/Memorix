@@ -1,0 +1,31 @@
+Functions
+    1.左右Swipe Gesture 加减方式
+    2.查看准确的序列
+    3.使用介绍 向哪划
+
+
+To do
+    instance method ?
+    block 回调
+
+
+
+
+Questions:
+
+    *** 传值 ***
+    a. navigation control / bar 在View中利用segue传值 ---> StartViewController.m
+    b. block 回调
+    c. delegate     ---> ViewController.m
+    d. Instance method : 通过一个单例的class 来传递 ---> DataSource.m
+    e. use file or NSUserDefault
+
+    * self && _ *
+
+    * Instance Method
+
+    *** 数据存储 ***
+    a.NSKeyedArchiver，采用归档的形式来保存数据，该数据对象需要遵守NSCoding协议。归档形式保存数据只能一次性归档保存以及一次性解压，只能针对小量谁，而且数据操作笨拙，即如果想改动数据的某一小部分，需要解压整个数据或者归档整个数据
+    b.NSUserDefaults，用来保存应用程序设置和属性
+    c.Write写入文件
+    d.相对前两种更为复杂，但也最好用。SQLite，可以自己封装，也可以使用FMDataBase等第三方封装库，还可以使用系统的CoreData

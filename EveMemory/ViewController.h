@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CardView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <ProgressProtocol>
 
+@property (nonatomic, strong) NSMutableArray *getArray;
 
 @end
 
