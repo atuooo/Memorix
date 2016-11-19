@@ -1,5 +1,6 @@
 # Memorix
-a simple SPEED CARDS trainnig APP
+a simple SPEED CARD trainnig APP
 
-![Memorix](https://github.com/atuooo/3rd/blob/master/showMeCode/Memorix.gif)
+Demo:
+![Memorix](/Memorix.gif)
 
